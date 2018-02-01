@@ -5,6 +5,8 @@ body {
   background-size: cover;
   background-color: #748593;
   box-shadow: 6px 6px 6px #5D6A76;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
 }
 
 p {
