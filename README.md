@@ -2,7 +2,9 @@
 
 5. Exchange rate app
     - created using React framework
-    - Accessed Exchange rate data via an API
+    - Used flexbox to practise mobile responsiveness
+    - Used Node/NPM/Yarn and Git to deploy project to Heroku 
+    - Used API within REact to Access Exchange rate data
     - Used state to manage interaction on the page
     - used ES6 arrow functions, object destructuring and other ES6 features where appropriate
     - Used props to reference data from parent component to child components
@@ -10,6 +12,8 @@
     - Used javascript to enable interaction on the page 
           - column 1 - view currency within the context of it's base rate
           - column 2 - Convert an exchange rate using a base rate of your choosing
+    - Used git to branch into 2 versions of App, one with redux(currently learning) and one without redux
+    - Used git to move non-redux branch into it's own repo
 ---
 4. Wikipedia Viewer
     - used vanilla javascript to access searches to the Wikipedia API
@@ -23,8 +27,16 @@
 2. Random Quote Generator 
     - First attempt at vanilla javaScript - pulling a random quote from a Github gist containing a json of quote objects
 ---
+3. Portfolio page
+    - Created to keep track of projects created
+    - Used bootstrap to practise mobile responsiveness
+    - Clickable links in portfolio section to view each of the projects completed
+    - Project files regularly updated on github
+---
 1. Tribute Page 
     - First web page, written using HTML and CSS
+    - Learned github
+    - Project files regularly updated on github
 
 
 
