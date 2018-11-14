@@ -1,4 +1,4 @@
-# Portfolio of web projects following the freeCodeCamp Curriculum to learn the essentials of Web development
+# Portfolio of web projects
 
 ## 5. Exchange rate app
     - created using React framework
