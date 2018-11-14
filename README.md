@@ -12,20 +12,24 @@
     - Used javascript to enable interaction on the page 
           - column 1 - view currency within the context of it's base rate
           - column 2 - Convert an exchange rate using a base rate of your choosing
+    - Project files regularly updated on github
     - Used git to branch into 2 versions of App, one with redux(currently learning) and one without redux
     - Used git to move non-redux branch into it's own repo
 ---
 4. Wikipedia Viewer
     - used vanilla javascript to access searches to the Wikipedia API
     - used 'fetch' to access data returned from user entered search term
+    - Project files regularly updated on github
 ---
 3. Weather App 
     - Used javaScript/jQuery to access weather data through an API. 
     - The background changes depending on the temperature (i.e. sunshine when hot, snow when cold)
     - A button changes the temperature from Fahrenheit to Celsius
+    - Project files regularly updated on github
 ---
 2. Random Quote Generator 
     - First attempt at vanilla javaScript - pulling a random quote from a Github gist containing a json of quote objects
+    - Project files regularly updated on github
 ---
 3. Portfolio page
     - Created to keep track of projects created
