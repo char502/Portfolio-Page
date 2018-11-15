@@ -1,6 +1,6 @@
 # Portfolio of web projects
 
-## 5. Exchange rate app
+## 6. Exchange rate app
  - Created using React framework
  - Used flexbox to practise mobile responsiveness
  - Used Node/NPM/Yarn and Git to deploy project to Heroku 
@@ -16,23 +16,23 @@
  - Used git to branch into 2 versions of App, one with redux(currently learning) and one without redux
  - Used git to move non-redux branch into it's own repo
 ---
-## 4. Wikipedia Viewer
+## 5. Wikipedia Viewer
  - used vanilla javascript to access searches to the Wikipedia API
  - used 'fetch' to access data returned from user entered search term
  - Project files regularly updated on github as page being built
 ---
-## 3. Weather App 
+## 4. Weather App 
  - Used javaScript/jQuery to access weather data through an API. 
  - The background changes depending on the temperature (i.e. sunshine when hot, snow when cold)
  - A button changes the temperature from Fahrenheit to Celsius
  - Project files regularly updated on github as page being built
 ---
-## 2. Random Quote Generator 
+## 3. Random Quote Generator 
  - First attempt at vanilla javaScript 
  - pulls a random quote from a Github gist containing a json of quote objects
  - Project files regularly updated on github as page being built
 ---
-## 3. Portfolio page
+## 2. Portfolio page
  - Created to keep track of projects created
  - Used bootstrap to practise mobile responsiveness
  - Project files regularly updated on github as page being built
