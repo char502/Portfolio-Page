@@ -8,7 +8,7 @@
  - Used state to manage interaction on the page
  - used ES6 arrow functions, object destructuring and other ES6 features where appropriate
  - Used props to reference data from parent component to child components
- - created modularised components using import and export ES6 keywords
+ - Created modularised components using import and export ES6 keywords
  - Used javascript to enable interaction on the page 
      - column 1 - view currency within the context of it's base rate
      - column 2 - Convert an exchange rate using a base rate of your choosing
@@ -17,8 +17,8 @@
  - Used git to move non-redux branch into it's own repo
 ---
 ## 5. Wikipedia Viewer
- - used vanilla javascript to access searches to the Wikipedia API
- - used 'fetch' to access data returned from user entered search term
+ - Used vanilla javascript to access searches to the Wikipedia API
+ - Used 'fetch' to access data returned from user entered search term
  - Project files regularly updated on github as page being built
 ---
 ## 4. Weather App 
@@ -29,7 +29,7 @@
 ---
 ## 3. Random Quote Generator 
  - First attempt at vanilla javaScript 
- - pulls a random quote from a Github gist containing a json of quote objects
+ - Pulls a random quote from a Github gist containing a json of quote objects
  - Project files regularly updated on github as page being built
 ---
 ## 2. Portfolio page
