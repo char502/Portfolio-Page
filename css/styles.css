@@ -1,12 +1,27 @@
 body {
   position: relative;
-  /* ___background-image: url("http://shop-home-decor.barnettproducts.com/media/catalog/product/cache/1/image/300x/040ec09b1e35df139433887a97daa66f/c/o/corduroy-pinwale-slate-blue_37.jpg"); */
-  /* ___background-repeat: no-repeat; */
+  max-width: 100%;
+  margin: auto;
+  /* background-color: #f6f7f8; */
+  /* background-color: #cdcdcd; */
+  /* background-color: #cccccc; */
+
+  background-image: url("https://www.photohdx.com/images/2016/03/grey-vintage-background-texture.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-color: #748593;
-  box-shadow: 6px 6px 6px #5d6a76;
+
+  /* background-image: url("http://photohdx.com/images/2016/03/light-blue-vintage-background-wood-texture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+  /* background-color: #748593; */
+  /* box-shadow: 6px 6px 6px #5d6a76; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
+
+  /* https://cdn.manomano.fr/slate-stone-brick-effect-wallpaper-3d-vinyl-textured-grey-bronze-brown-blue-L-1504056-3558564_1.jpg */
+  /* ___background-image: url("http://shop-home-decor.barnettproducts.com/media/catalog/product/cache/1/image/300x/040ec09b1e35df139433887a97daa66f/c/o/corduroy-pinwale-slate-blue_37.jpg"); */
+  /* ___background-repeat: no-repeat; */
 }
 
 /* html {
@@ -134,6 +149,10 @@ ul.nav a:hover {
 }
 */
 
+.container {
+  max-width: 90%;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -160,10 +179,14 @@ ul.nav a:hover {
   color: #ffffff;
 }
 
-hr {
+/* hr {
   color: #000;
   background-color: #000;
-}
+} */
+
+/* h2 {
+  font-size: 380px;
+} */
 
 #aboutnav {
   margin-top: -60px;
@@ -173,18 +196,28 @@ hr {
 .thumbnail {
   /* max-width: 500px; */
   /* margin: auto; */
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+
+  margin: auto;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   background-color: #dadfe3;
   box-shadow: 10px 10px 10px #5d6a76;
   transition: all 1s ease-in-out;
 }
 
 .thumbnail:hover::after {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+
+  margin: auto;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   background-color: #dadfe3;
-  box-shadow: 20px 20px 20px #5d6a76;
+
   z-index: -1;
   /* opacity: 0; */
   transition: opacity 1s ease-in-out;
@@ -193,6 +226,7 @@ hr {
 /* Scale up the box */
 .thumbnail:hover {
   transform: scale(1.1, 1.1);
+  box-shadow: 15px 15px 15px #5d6a76;
 }
 
 /* Fade in the pseudo-element with the bigger shadow */
@@ -211,8 +245,17 @@ hr {
 } */
 
 .thumbnail a > img {
-  height: 250px;
+  padding: 10px;
+  /* height: 250px;
+  max-width: 100%; */
+  /* height: auto; */
   width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.caption {
+  font-size: 15px;
 }
 
 #aboutme {
@@ -253,7 +296,7 @@ hr {
   color: #000;
 }
 
-.caption p {
+p.caption span {
   color: #000;
   font-weight: bold;
 }
@@ -294,6 +337,10 @@ h2 {
   background-color: #748593;
 }
 
+/* .form {
+  max-width: 100%;
+} */
+
 /* the box surrounding the form */
 #emailme {
   border-radius: 3px;
@@ -301,7 +348,16 @@ h2 {
   width: 600px;
   margin: 0 auto;
   background-color: #a6b1ba;
+
+  /* background-color: #748593; */
   box-shadow: 6px 6px 6px #5d6a76;
+  max-width: 100%;
+}
+
+#formbox {
+  background-color: #748593;
+  margin-top: -20px;
+  /* background-color: #4a555e; */
 }
 
 /* The form itself */
@@ -309,7 +365,7 @@ h2 {
   border-radius: 3px;
   background-color: #c6cdd3;
   padding: 20px 20px 20px 80px;
-  box-shadow: 6px 6px 6px #5d6a76;
+  /* box-shadow: 6px 6px 6px #5d6a76; */
 }
 
 .vresize {
@@ -338,7 +394,8 @@ h2 {
 }
 
 #social {
-  padding-top: 10px;
+  /* padding-top: 10px; */
+  margin-top: -40px;
   padding-bottom: 30px;
   background-color: #748593;
 }
@@ -351,7 +408,7 @@ i {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #ffffff;
-  background-color: #2f363c;
+  background-color: #4a555e;
 }
 
 .icon-white {
