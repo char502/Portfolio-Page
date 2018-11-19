@@ -6,14 +6,18 @@
   <title>Portfolio Page</title>
 
 
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
-  <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <!-- <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'> -->
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css'>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
 
-  <link rel="stylesheet" href="css/style.css">
-
-
+  <!-- jQuery for smoothscroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
 </head>
 
 <body>
@@ -36,7 +40,7 @@
         <div id="myNavbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li role="presentation" class="active"><a href="#main">Main</a></li>
-            <li role="presentation" class="active"><a href="#aboutnav">About Me</a></li>
+            <li role="presentation"><a href="#aboutnav">About Me</a></li>
             <li role="presentation"><a href="#portfolionav">Portfolio</a></li>
             <li role="presentation"><a href="#skillsnav">Skills</a></li>
             <li role="presentation"><a href="#contactnav">Contact Me</a></li>
@@ -53,7 +57,7 @@
 
     <section class="jumbotron">
       <div class="container">
-        <div class"row text-center">
+        <div class"row text-right">
           <h1>Charlotte Ellwood</h1>
           <br>
           <h3>Web Developer</h3>
@@ -72,7 +76,7 @@
           <h2 class="text-center">About Me</h2>
           <div>
             <p class="aboutMeText">
-              Junior web developer with 20 years experience in IT. Currently studying full time, preparing for first web development position. Looking to leverage proven communication, problem solving, research, analytical and investigation skills gained from previous roles in IT support and Digital forensics in new roles. (I also hold SC clearance).</p>
+              Junior web developer with 20 years experience in IT. Currently studying full time, preparing for first web development position. Looking to leverage proven communication, problem solving, research, analytical and investigation skills gained from previous roles in IT support and Digital forensics in new roles.</p>
           </div>
           <p class="text-center"><i class="fa fa-code fa-4x" aria-hidden="true"></i>
       </div>
@@ -176,8 +180,6 @@
             <br>
             <h2 class="skills text-center">Skills</h2>
 
-
-
             <div class="skills-icons text-center">
               <i class="devicon-html5-plain-wordmark colored" aria-hidden="true"></i>
               <i class="devicon-css3-plain-wordmark colored" aria-hidden="true"></i>
@@ -186,32 +188,12 @@
               <i class="devicon-bootstrap-plain-wordmark colored" aria-hidden="true"></i>
             </div>
 
-
             <div class="skills-icons text-center">
               <i class="devicon-sass-original colored" aria-hidden="true"></i>
               <i class="fab fa-npm" aria-hidden="true"></i>
               <i class="devicon-react-original-wordmark colored" aria-hidden="true"></i>
               <i class="devicon-github-plain-wordmark colored" aria-hidden="true"></i>
             </div>
-
-
-            <!--  
-          <div class="skills-icons text-center">    
-              <i class="devicon-html5-plain-wordmark" aria-hidden="true"></i>
-              <i class="devicon-css3-plain-wordmark" aria-hidden="true"></i>
-              <i class="devicon-javascript-plain" aria-hidden="true"></i>
-              <i class="devicon-jquery-plain-wordmark" aria-hidden="true"></i>
-            <i class="devicon-bootstrap-plain-wordmark" aria-hidden="true"></i>   
-          </div>  
-          
-           <div class="skills-icons text-center">    
-              <i class="devicon-sass-original" aria-hidden="true"></i>
-              <i class="devicon-php-plain" aria-hidden="true"></i>
-              <i class="devicon-python-plain-wordmark" aria-hidden="true"></i>
-              <i class="devicon-github-plain-wordmark" aria-hidden="true"></i>   
-          </div>  
-          
-   -->
 
           </div>
         </div>
@@ -326,7 +308,8 @@
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js'></script>
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
-  <div></div>
+  <!-- js for smoothscroll -->
+  <script src="js/index.js"></script>
 
 </body>
 
