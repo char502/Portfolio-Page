@@ -2,13 +2,16 @@ body {
   position: relative;
   max-width: 100%;
   margin: auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   /* background-color: #f6f7f8; */
   /* background-color: #cdcdcd; */
   /* background-color: #cccccc; */
 
-  background-image: url("https://www.photohdx.com/images/2016/03/grey-vintage-background-texture.jpg");
+  /* background-image: url("https://www.photohdx.com/images/2016/03/grey-vintage-background-texture.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 
   /* background-image: url("http://photohdx.com/images/2016/03/light-blue-vintage-background-wood-texture.jpg");
   background-repeat: no-repeat;
@@ -16,8 +19,6 @@ body {
 
   /* background-color: #748593; */
   /* box-shadow: 6px 6px 6px #5d6a76; */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
 
   /* https://cdn.manomano.fr/slate-stone-brick-effect-wallpaper-3d-vinyl-textured-grey-bronze-brown-blue-L-1504056-3558564_1.jpg */
   /* ___background-image: url("http://shop-home-decor.barnettproducts.com/media/catalog/product/cache/1/image/300x/040ec09b1e35df139433887a97daa66f/c/o/corduroy-pinwale-slate-blue_37.jpg"); */
