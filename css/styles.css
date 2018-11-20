@@ -139,7 +139,13 @@ p {
   margin: auto;
   text-align: center;
   margin-bottom: 30px;
+  /* box-shadow: 10px 10px 10px #5d6a76;
+  transition: all 1s ease-in-out; */
+
+  -webkit-box-shadow: 10px 10px 10px #5d6a76;
   box-shadow: 10px 10px 10px #5d6a76;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
@@ -150,13 +156,17 @@ p {
   text-align: center;
   margin-bottom: 30px;
   background-color: #dadfe3;
-
+  -webkit-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
 
 /* Scale up the box */
 .thumbnail:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
+  -webkit-box-shadow: 15px 15px 15px #5d6a76;
   box-shadow: 15px 15px 15px #5d6a76;
 }
 
