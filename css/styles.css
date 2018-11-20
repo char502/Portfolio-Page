@@ -1,28 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   position: relative;
   /* max-width: 100%;
   margin: auto; */
+
+  margin: 0;
+  padding: 0;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  /* background-color: #f6f7f8; */
-  /* background-color: #cdcdcd; */
-  /* background-color: #cccccc; */
-
   /* background-image: url("https://www.photohdx.com/images/2016/03/grey-vintage-background-texture.jpg");
   background-repeat: no-repeat;
   background-size: cover; */
-
-  /* background-image: url("http://photohdx.com/images/2016/03/light-blue-vintage-background-wood-texture.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
-
-  /* background-color: #748593; */
-  /* box-shadow: 6px 6px 6px #5d6a76; */
-
-  /* https://cdn.manomano.fr/slate-stone-brick-effect-wallpaper-3d-vinyl-textured-grey-bronze-brown-blue-L-1504056-3558564_1.jpg */
-  /* ___background-image: url("http://shop-home-decor.barnettproducts.com/media/catalog/product/cache/1/image/300x/040ec09b1e35df139433887a97daa66f/c/o/corduroy-pinwale-slate-blue_37.jpg"); */
-  /* ___background-repeat: no-repeat; */
 }
 
 /* html {
@@ -105,51 +98,6 @@ p {
   }
 }
 
-/* #1CE9F6 */
-
-/* Navbar */
-/* .navbar {
-  -webkit-box-shadow: 0 8px 6px -6px #5d6a76;
-  -moz-box-shadow: 0 8px 6px -6px #5d6a76;
-  box-shadow: 0 8px 6px -6px #5d6a76;
-}
-
-need to sort out the nav bar
-
-.navbar-custom {
-  background-color: #4a555e;
-  color: #ffffff;
-}
-
-.navbar-custom .navbar-nav > li > a {
-  color: #ffffff;
-}
-
-ul.nav a:hover {
-  color: #a6b1ba;
-}
-
-.nav > li > a:hover {
-  background-color: #a6b1ba;
-}
-
-.navbar-custom .navbar-toggle {
-  background-color: #a6b1ba;
-}
-
-.navbar-custom .navbar-brand {
-  color: #ffffff;
-} */
-
-/* Navbar End */
-
-/*
-.page-header {
-  padding: 10px;
-  box-shadow: 0 8px 6px -6px #5D6A76;
-}
-*/
-
 .container {
   max-width: 90%;
 }
@@ -180,47 +128,29 @@ ul.nav a:hover {
   color: #ffffff;
 }
 
-/* hr {
-  color: #000;
-  background-color: #000;
-} */
-
-/* h2 {
-  font-size: 380px;
-} */
-
 #aboutnav {
   margin-top: -60px;
   padding-top: 60px;
 }
 
 .thumbnail {
-  /* max-width: 500px; */
-  /* margin: auto; */
   width: 100%;
-  max-width: 500px;
   height: auto;
-
   margin: auto;
   text-align: center;
   margin-bottom: 30px;
-  background-color: #dadfe3;
   box-shadow: 10px 10px 10px #5d6a76;
   transition: all 1s ease-in-out;
 }
 
 .thumbnail:hover::after {
   width: 100%;
-  max-width: 500px;
   height: auto;
-
   margin: auto;
   text-align: center;
   margin-bottom: 30px;
   background-color: #dadfe3;
 
-  z-index: -1;
-  /* opacity: 0; */
   transition: opacity 1s ease-in-out;
 }
 
@@ -230,29 +160,12 @@ ul.nav a:hover {
   box-shadow: 15px 15px 15px #5d6a76;
 }
 
-/* Fade in the pseudo-element with the bigger shadow */
-/* .thumbnail:hover::after {
-  opacity: 0.1;
-} */
-
-/* .thumbnail:hover::after {
-  box-shadow: 0 9px 12px #5d6a76;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.thumbnail:hover::after {
-  opacity: 1;
-} */
-
-.thumbnail a > img {
-  padding: 10px;
-  /* height: 250px;
-  max-width: 100%; */
-  /* height: auto; */
+.img-responsive {
   width: 100%;
-  max-width: 500px;
   height: auto;
+  padding: 0;
+  border: 0;
+  max-width: 100%;
 }
 
 .caption {
@@ -263,16 +176,22 @@ ul.nav a:hover {
   margin-top: -30px;
   padding-top: 20px;
   padding-bottom: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
   background-color: #e7eaed;
   color: #000;
+
+  font-size: 25px;
+  text-align: center;
 }
 
-.aboutMeText {
-  font-size: 20px;
-  max-width: 90%;
+/* .aboutMeText p h3 {
+  font-size: 25px;
+  text-align: center;
+  max-width: 95%;
   margin: auto;
-  padding: 2%;
-}
+  text-align: center;
+} */
 
 #alignright {
   display: block;
@@ -291,8 +210,6 @@ ul.nav a:hover {
   color: #000;
 }
 
-/* #4A555E */
-
 #portfolio h2 {
   color: #000;
 }
@@ -303,7 +220,7 @@ p.caption span {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: #000;
 }
@@ -317,30 +234,19 @@ h2 {
   font-size: 60px;
 }
 
-/*
-.skill-list-header {
-  color: #000;
-}
-
-.skill-list li {
-  font-size: 15px;
-  color: #000;
-}
-
-*/
-
 .getintouch {
   color: ffffff;
   margin-bottom: 20px;
-  /* ___background-image: url("http://shop-home-decor.barnettproducts.com/media/catalog/product/cache/1/image/300x/040ec09b1e35df139433887a97daa66f/c/o/corduroy-pinwale-slate-blue_37.jpg"); */
-  /* ___background-repeat: no-repeat; */
-  /* ___background-size: cover; */
+  /* background-image: url("http://shop-home-decor.barnettproducts.com/media/catalog/product/cache/1/image/300x/040ec09b1e35df139433887a97daa66f/c/o/corduroy-pinwale-slate-blue_37.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
   background-color: #748593;
+  max-width: 100%;
 }
 
-/* .form {
+.form {
   max-width: 100%;
-} */
+}
 
 /* the box surrounding the form */
 #emailme {
