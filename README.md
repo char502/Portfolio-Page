@@ -10,7 +10,7 @@
   - Local Storage and using a date library (Moment.js) and UUID generator
   - ES6 (arrow functions, const and let, default parameters) 
 - Learning Object Oriented Principles including, constructor functions, Prototypal Inheritance and ES6 class syntax
-- Pushed project to Githib and linked to Portfolio
+- Pushed project to Github and linked to Portfolio
 
 ## 6. Exchange rate app
 
