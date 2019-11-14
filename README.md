@@ -1,6 +1,22 @@
 # Portfolio of web projects
 
-## 7. Hangman Game
+## 1. News App
+
+- Started working with a mentor in September 2019
+- Gainined siginificant practice with React itself, also learned how to use:
+  - React-Router
+  - Context API
+  - Higher Order Components
+  - Styled Components
+  - Local Storage and using a date library (Moment.js)
+  - 3rd Party react libraries: React-Slick, React-Select, React-Media
+- Deepeneed knowledge of Git using branches and pull requests
+- Learned testing with Jest and Enzyme
+- Used hosting with Zeit
+
+---
+
+## 2. Hangman Game
 
 - Following an in-depth Vanilla JavaScript Bootcamp
 - Refreshing knowledge on JavaScript fundamentals including:
@@ -12,7 +28,9 @@
 - Learning Object Oriented Principles including, constructor functions, Prototypal Inheritance and ES6 class syntax
 - Pushed project to Github and linked to Portfolio
 
-## 6. Exchange rate app
+---
+
+## 3. Exchange rate app
 
 - Created using React framework
 - Used flexbox to practise mobile responsiveness
@@ -31,7 +49,7 @@
 
 ---
 
-## 5. Wikipedia Viewer
+## 4. Wikipedia Viewer
 
 - Used vanilla javascript to access searches to the Wikipedia API
 - Used 'fetch' to access data returned from user entered search term
@@ -39,7 +57,7 @@
 
 ---
 
-## 4. Weather App
+## 5. Weather App
 
 - Used javaScript/jQuery to access weather data through an API.
 - The background changes depending on the temperature (i.e. sunshine when hot, snow when cold)
@@ -48,7 +66,7 @@
 
 ---
 
-## 3. Random Quote Generator
+## 6. Random Quote Generator
 
 - First attempt at vanilla javaScript
 - Pulls a random quote from a Github gist containing a json of quote objects
@@ -56,7 +74,7 @@
 
 ---
 
-## 2. Portfolio page
+## 7. Portfolio page
 
 - Created to keep track of web development projects
 - Used bootstrap to practise mobile responsiveness
@@ -66,7 +84,7 @@
 
 ---
 
-## 1. Tribute Page
+## 8. Tribute Page
 
 - First web page, written using HTML and CSS
 - Used bootstrap to practise mobile responsiveness
